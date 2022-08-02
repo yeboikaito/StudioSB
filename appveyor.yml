@@ -18,7 +18,7 @@ deploy:
   description: 'This build is updated every time a commit is pushed to the master branch.\n\nMessage: $(APPVEYOR_REPO_COMMIT_MESSAGE)\n\n Timestamp: $(APPVEYOR_REPO_COMMIT_TIMESTAMP)'
   provider: GitHub
   auth_token:
-    secure: xauaTCyRR7zXmIIk4uXxttIa2s/DKhiMVYbGn6BMy/suM2ow6gUe0GNrnS+d1Q/q
+    secure: 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
   artifact: StudioSB.zip
   draft: false
   prerelease: true
