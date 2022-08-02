@@ -16,8 +16,8 @@ deploy:
   tag: LatestCommit
   release: StudioSB [Latest Commit]
   description: 'This build is updated every time a commit is pushed to the master branch.\n\nMessage: $(APPVEYOR_REPO_COMMIT_MESSAGE)\n\n Timestamp: $(APPVEYOR_REPO_COMMIT_TIMESTAMP)'
-  provider: GitHub
-  auth_token: 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
+  provider: null
+  auth_token: false
   artifact: StudioSB.zip
   draft: false
   prerelease: true
